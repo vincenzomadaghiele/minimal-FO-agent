@@ -1,6 +1,5 @@
 # A minimal co-improvising musical agent in Python with Factor Oracle
-
-## A short tutorial to make a simple musical agent
+### A short tutorial to make a simple musical agent
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*_a5SNAte-DmuiF9MFpA5iw.png)
 *A player piano, a mechanical piano that can be activated with MIDI messages sent by a computer program. In this picture a Yamaha Disklavier from University of Oslo, photo by the author.*
