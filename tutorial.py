@@ -36,7 +36,7 @@ class NotePatch (Patch):
 if __name__ == "__main__":
 
     # LOAD MIDI FILE
-    midi_file_path = 'midi/bach_988-v10.mid'
+    midi_file_path = 'bach_988-v10.mid'
     pm = pretty_midi.PrettyMIDI(midi_file_path)
     pm = quantize_midi(pm)
     piano_roll = pm.get_piano_roll(fs=100)
@@ -66,11 +66,13 @@ if __name__ == "__main__":
     pitchFO = FactorOracle()
     pitchFO.train(pitches)
     pitchVocab = pitchFO.symbols
+    pitchFO.visualize()
 
     durationFO = FactorOracle()
     durationFO.train(durations)
     durationVocab = durationFO.symbols
     durationVocab = [float(x) for x in durationVocab]
+    durationFO.visualize()
 
 
     # audio graph
