@@ -18,8 +18,6 @@ In this article, I will outline a step-by-step procedure to make a minimal live 
 
 The aim of the article is to introduce the basic concepts of live musical agents, and provide an extremely basic working software example, that can be expanded by interested computer musicians by modifying its basic components.
 
-*Voyager (1987) by George Lewis, is considered the first co-improvisation live musical agent. George Lewis has been working on improvised music and computer music systems since the 1970s.*
-
 ## Components of a co-improvising agent
 
 A live musical agent needs to able to interpret a live musician’s sonic input, process it, and generate an appropriate musical response. These are the basic components of the software we will develop: (1) live input analysis, (2) response generation, (3) sound synthesis ([Blackwell et al., 2012](https://link.springer.com/chapter/10.1007/978-3-642-31727-9_6)).
@@ -386,8 +384,5 @@ We can now put all the elements together and customize the code to make this sys
 -   Implementing live audio input instead of MIDI.
 
 This video shows an improvisation by the author of this article, using a modified version of the program (pardon my nonexistent piano skills).
-
-*A short video demo of a slightly modified version of the live system. The input sound is on the left channel, the sound produced by the artificial agent is on the right channel for demonstration purposes.*
-
 
 This code is released under [open-source license LGPL-3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html). This work it is funded by the University of Oslo (Norway).
